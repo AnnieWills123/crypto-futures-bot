@@ -1,4 +1,4 @@
-mport ccxt
+import ccxt
 from config import BINANCE_API_KEY, BINANCE_API_SECRET
 
 def get_exchange():
