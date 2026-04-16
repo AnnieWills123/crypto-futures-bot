@@ -1,0 +1,19 @@
+import os
+
+# API KEYS (we will add later in Render environment variables)
+BINANCE_API_KEY = os.getenv("BINANCE_API_KEY")
+BINANCE_API_SECRET = os.getenv("BINANCE_API_SECRET")
+
+# TRADING SETTINGS
+SYMBOL = "BTC/USDT"
+TIMEFRAME = "15m"
+
+LEVERAGE = 5
+
+RISK_PER_TRADE = 0.02
+STOP_LOSS = 0.01
+TAKE_PROFIT = 0.015
+
+MAX_DAILY_TRADES = 5
+MAX_DAILY_LOSS = 0.05
+MAX_LOSS_STREAK = 2
